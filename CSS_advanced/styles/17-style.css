@@ -95,6 +95,12 @@ a:active {
 	--section-tagline-transform: uppercase;
 	--section-title-margin: 0;
 	--section-title-color: var(--color-black);
+	--section-padding: 5rem 0;
+	--section-header-padding: 0 0 3rem;
+	--section-body-padding: 0 0 3rem;
+	--section-footer-padding: 3rem 0 0;
+	--section-footer-align: center;
+	--footer-padding: 5rem 0 1rem;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -102,6 +108,38 @@ a:active {
 	font-weight: var(--font-weight-bold); 
   }
 
+  .section {
+	padding-left: var(--section-padding);
+	padding-right: var(--section-padding);
+	padding-top: var(--section-padding);
+	padding-bottom: var(--section-padding);
+  }
+
   .section-header {
 	text-align: var(--section-header-align);
+	padding-left: var(--section-header-align);
+	padding-right: var(--section-header-align);
+	padding-top: var(--section-header-align);
+	padding-bottom: var(--section-header-align);
+  }
+
+  .section-body {
+	padding-left: var(--section-body-align);
+	padding-right: var(--section-body-align);
+	padding-top: var(--section-body-align);
+	padding-bottom: var(--section-body-align);
+  }
+
+  .section-footer {
+	padding-left: var(--section-footer-align);
+	padding-right: var(--section-footer-align);
+	padding-top: var(--section-footer-align);
+	padding-bottom: var(--section-footer-align);
+  }
+
+  .footer {
+	padding-left: var(--footer-padding);
+	padding-right: var(--footer-padding);
+	padding-top: var(--footer-padding);
+	padding-bottom: var(--footer-padding);
   }
