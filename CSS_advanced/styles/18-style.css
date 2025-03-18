@@ -66,7 +66,7 @@ a:active {
 	font-weight: var(--font-weight-bold);
 }
 
-.contenair {
+.container {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
@@ -119,21 +119,14 @@ a:active {
 	padding: var(--section-padding);
   }
 
-  .navbar-menu {
+ .navbar-menu {
 	float: right;
 }
 
-.navbar-menu {
-	float: right; /* Floats the navbar menu to the right */
-}
-
-nav {
+ nav {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-}
-
-nav ul {
 	list-style: none;
 }
 
@@ -148,7 +141,7 @@ nav ul {
 
 .nav-link {
 	display: block;
-	padding: calc(0.5 * 1rem) calc(1 * 1rem);
+	padding: 0.5rem 1rem;
 }
 
 .nav-link:hover {
