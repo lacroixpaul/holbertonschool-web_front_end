@@ -224,7 +224,6 @@ nav .nav-link::before {
     background-color: var(--color-white);
     width: 0;
     height: 20%;
-    transition: width 0.3s ease;
 }
 
 nav .nav-item:hover .nav-link::before {
