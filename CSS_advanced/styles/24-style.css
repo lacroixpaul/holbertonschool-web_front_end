@@ -221,17 +221,18 @@ ul.row {
     fill: var(--text-color);
 }
 
-.card-services .card-title {
-    margin: 0;
+.card-services .card-title{
+  margin: 0;
 }
 
-.card-services .a {
-    display: block;
-	padding: 2rem;
-	background-color: var(--color-light-grey);
+.card-services a{
+  display: block;
+  padding: 2rem;
+  background-color: var(--color-light-grey);
 }
 
-.card-services .a:hover{
-	background-color: var(--color-white);
-	text-decoration: none;
+.card-services a:hover{
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  text-decoration: none;
 }
